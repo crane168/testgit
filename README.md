@@ -59,7 +59,7 @@ thank `you` very much!
 |   2  | gentmo | 编译所有交易 | haha  |
 |   100000  | sysdba | 数据库表模型汇总 | mysql  |
 <hr>
-<pre><code>
+```
   $http({
         method: 'get',
         url: requrl,
@@ -71,7 +71,7 @@ thank `you` very much!
     }).success(function (response) {
         $scope.starter = response.data;
     });
-    </code></pre>
+    ```
     
 =====================================================================
 ## 插入一个连接
