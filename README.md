@@ -56,11 +56,11 @@ thank `you` very much!
 | 序号 | 交易名 | 交易说明 | 备注 |
 | ---: | :----: | :------- | ---- |
 |   1  | prfcfg | 菜单配置 | 可以通过此交易查询到所有交易码和菜单的对应关系 |
-|   2  | gentmo | 编译所有交易 |  |
-|   100000  | sysdba | 数据库表模型汇总 |  |
+|   2  | gentmo | 编译所有交易 | haha  |
+|   100000  | sysdba | 数据库表模型汇总 | mysql  |
 <hr>
-
-    ```$http({
+<pre><code>
+  $http({
         method: 'get',
         url: requrl,
         params: {
@@ -70,9 +70,10 @@ thank `you` very much!
         }
     }).success(function (response) {
         $scope.starter = response.data;
-
-    });```<br>
-=====================================================================<br>
+    });
+    </code></pre>
+    
+=====================================================================
 ## 插入一个连接
 [百度一下](http://www.baidu.com 'baidu logo')
 ## 插入两个图片
